@@ -1,0 +1,48 @@
+lanelet_check:
+  passed: true
+  sim: true
+  goal_behind: 1.0
+  lanelet_sha256: de3ce02c9aa22ff8434eb1fa49864a7ca12da7b2d0a92351482385c3a3bbc4c4
+  results:
+  - requirement: loop
+    ok: true
+    value: 10 lanelets, 97.6 m
+    reason: ''
+  - requirement: clockwise
+    ok: true
+    value: signed area -640.0 m^2
+    reason: ''
+  - requirement: speed limits
+    ok: true
+    value: 10-10 km/h
+    reason: ''
+  - requirement: start boundary
+    ok: true
+    value: 0.50 m behind the origin
+    reason: ''
+  - requirement: sim lap
+    ok: true
+    value: 96.2 m in 121 s sim
+    reason: ''
+  start_hint:
+    s_origin: 73.445
+    off_loop: 0.064
+    lanelet: 246
+    behind: 0.498
+    previous: 199
+    near: true
+    goal_lanelet: 199
+    goal_behind: 1.0
+    heading_deg: -1.73
+    axis: +x
+  sim_lap:
+    ok: true
+    reason: arrived
+    value: 96.2 m in 121 s sim
+    wall_s: 222.4
+    lap_s: 120.8
+    run_dir: ''
+    samples: 8666
+    travel_m: 96.16
+  time: 2026-11-23T08:57:58+0000
+  autosdv: 84a4e735337fc79aa2305bba34bcfa90e9d9c6b5
